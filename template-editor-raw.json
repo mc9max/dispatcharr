@@ -1,1 +1,1 @@
-{"DISPATCHARR_LOG_LEVEL":{"description":"Log verbosity: debug, info, warning, error.","value":"info"},"DISPATCHARR_SETUP_ALLOWED_IP":{"description":"Optional — your public IP if the first-time admin setup page blocks you.","value":""},"TZ":{"description":"Timezone for guide data and log timestamps (e.g. America/Vancouver).","value":"UTC"}}
+{}

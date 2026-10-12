@@ -36,7 +36,7 @@ One click. Railway provisions a single service with a 5 GB `/data` volume and st
 
 ## First-run setup
 
-Open your Railway public URL. The setup page creates the admin account. First-time setup is limited to local/private networks by default — Railway's proxy presents a private peer IP, so this normally just works. If the page blocks you, it shows the IP Dispatcharr sees: paste that IP into the `DISPATCHARR_SETUP_ALLOWED_IP` template variable, redeploy, create the admin, then clear the variable.
+Open your Railway public URL. The setup page creates the admin account. First-time setup is limited to local/private networks by default — Railway's proxy presents a private peer IP, so this normally just works. If the page blocks you, it shows the IP Dispatcharr sees: add a service variable `DISPATCHARR_SETUP_ALLOWED_IP` with that IP, redeploy, create the admin, then remove the variable.
 
 ## Troubleshooting
 
